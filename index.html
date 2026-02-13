@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Will You Marry Me?</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #ff4e50, #ffffff);
+            color: white;
+        }
+
+        .container {
+            background: rgba(255, 0, 0, 0.6);
+            padding: 40px;
+            border-radius: 20px;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        button {
+            padding: 15px 30px;
+            margin: 15px;
+            font-size: 18px;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+        }
+
+        .yes {
+            background-color: white;
+            color: red;
+        }
+
+        .no {
+            background-color: grey;
+            color: white;
+            cursor: not-allowed;
+        }
+
+        .flowers {
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="flowers">🌹 🌹 🌹</div>
+        <h1>Will You Marry Me?</h1>
+        <div class="flowers">🌹 🌹 🌹</div>
+        <br>
+        <button class="yes" onclick="location.href='page2.html'">Yes</button>
+        <button class="no">No</button>
+    </div>
+</body>
+</html>
